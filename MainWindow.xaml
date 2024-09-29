@@ -11,7 +11,7 @@
         <Label Content="Ввести B" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
         
         <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="33" Margin="174,23,0,0" VerticalAlignment="Top" Width="50"/>
-        <Button x:Name="subtract1" Content="-" HorizontalAlignment="Left" Height="33" Margin="229,23,0,0" VerticalAlignment="Top" Width="50"/>
+        <Button x:Name="subtract1" Content="-" HorizontalAlignment="Left" Height="33" Margin="229,23,0,0" VerticalAlignment="Top" Width="50" Click="subtract1_Click"/>
         <Button x:Name="multiply" Content="*" HorizontalAlignment="Left" Height="33" Margin="284,23,0,0" VerticalAlignment="Top" Width="50"/>
         <Button x:Name="division" Content="/" HorizontalAlignment="Left" Height="33" Margin="339,23,0,0" VerticalAlignment="Top" Width="50"/>
 

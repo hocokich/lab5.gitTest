@@ -28,7 +28,7 @@ namespace lab5.gitTest
         {
             try
             {
-                double result = double.Parse(a.Text) + double.Parse(b.Text);
+                result.Content = double.Parse(a.Text) + double.Parse(b.Text);
             }
             catch { }
         }
@@ -38,7 +38,7 @@ namespace lab5.gitTest
         {
             try
             {
-                double result = double.Parse(a.Text) - double.Parse(b.Text);
+                result.Content = double.Parse(a.Text) - double.Parse(b.Text);
             }
             catch { }
         }
@@ -47,7 +47,7 @@ namespace lab5.gitTest
         {
             try
             {
-                double result = double.Parse(a.Text) * double.Parse(b.Text);
+                result.Content = double.Parse(a.Text) * double.Parse(b.Text);
             }
             catch { }
         }
@@ -56,7 +56,7 @@ namespace lab5.gitTest
         {
             try
             {
-                double result = double.Parse(a.Text) / double.Parse(b.Text);
+                result.Content = double.Parse(a.Text) / double.Parse(b.Text);
             }
             catch { }
         }

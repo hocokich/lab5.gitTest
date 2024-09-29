@@ -10,7 +10,9 @@
         <Button Content="+" HorizontalAlignment="Left" Height="33" Margin="211,14,0,0" VerticalAlignment="Top" Width="50"/>
         <Label Content="Ввести А" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Label Content="Ввести B" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        
         <TextBox x:Name="a" HorizontalAlignment="Left" Margin="73,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="b" HorizontalAlignment="Left" Margin="73,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
 
 

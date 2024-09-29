@@ -42,5 +42,14 @@ namespace lab5.gitTest
             }
             catch { }
         }
+
+        private void multiply_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                double result = double.Parse(a.Text) * double.Parse(b.Text);
+            }
+            catch { }
+        }
     }
 }

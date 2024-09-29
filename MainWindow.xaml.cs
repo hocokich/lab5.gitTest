@@ -34,7 +34,7 @@ namespace lab5.gitTest
         }
 
 
-        private void subtract1_Click(object sender, RoutedEventArgs e)
+        private void subtract_Click(object sender, RoutedEventArgs e)
         {
             try
             {

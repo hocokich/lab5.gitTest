@@ -24,5 +24,14 @@ namespace lab5.gitTest
         {
             InitializeComponent();
         }
+
+        private void plus_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                double result = double.Parse(a.Text) + double.Parse(b.Text);
+            }
+            catch { }
+        }
     }
 }

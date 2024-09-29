@@ -24,5 +24,41 @@ namespace lab5.gitTest
         {
             InitializeComponent();
         }
+        private void plus_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                result.Content = double.Parse(a.Text) + double.Parse(b.Text);
+            }
+            catch { }
+        }
+
+
+        private void subtract_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                result.Content = double.Parse(a.Text) - double.Parse(b.Text);
+            }
+            catch { }
+        }
+
+        private void multiply_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                result.Content = double.Parse(a.Text) * double.Parse(b.Text);
+            }
+            catch { }
+        }
+
+        private void division_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                result.Content = double.Parse(a.Text) / double.Parse(b.Text);
+            }
+            catch { }
+        }
     }
 }
